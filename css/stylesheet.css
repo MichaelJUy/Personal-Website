@@ -1,5 +1,36 @@
+*{
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.95rem;
+}
+
+nav,
+.links{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    justify-content: space-between;
+    background-color:cadetblue;
+}
+
+nav{
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    justify-content: space-between;
+}
+
+.links li{
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    color: hsl(0, 0%, 41%);
+}
 h1 {
     font-family:'Montserrat', sans-serif;
+    font-size:3rem;
     color:darkblue
     
 }
@@ -8,8 +39,44 @@ body {
     background-color:#b6dbdb
     
   }
-nav{
-    text-align: center;
-    background-color:dodgerblue
+
+main h2{
+    font-size: 2rem;
 }
 
+main p{
+    font-size: 0.7rem;
+    width: 30rem;
+    color:black;
+    line-height: 0.9rem;
+}
+.text-side{
+    margin-top: 3rem;
+}
+.image-side img{
+    width: 500px;
+    height: 350px;
+}
+.image-side2 img{
+    width: 200px;
+    height: 136px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 5.5rem;
+    background-color: cadetblue;
+}
+.copyright a{
+    color: black;
+    font-size: 0.7rem;
+    
+}
