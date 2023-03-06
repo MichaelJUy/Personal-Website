@@ -23,9 +23,7 @@ nav{
     justify-content: space-between;
 }
 
-.mobile-nav{
-    display:none;
-}
+
 .links li{
     font-size: 0.7rem;
     margin-right: 1rem;
@@ -49,7 +47,7 @@ main h2{
 
 main p{
     font-size: 0.7rem;
-    width: 30rem;
+    
     color:black;
     line-height: 0.9rem;
 }
@@ -90,49 +88,20 @@ main{
     
 }
 
-@media (min-width: 300px) and (max-width:600px){
-    * {
-        font-size: 1rem;
+/*small tablet styles */
+@media screen and (max-width:600px){
+    main p{
+        font-size: 0.7rem;
+        width: 10rem;
+        color:black;
+        line-height: 0.9rem;
     }
-    body{
-        height: 100vh;
-        width: 100vw;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    nav{
-        margin: 0 1.5rem 0 1.5rem;
-    }
-    nav ul{
-        display: none;
-    }
-    .mobile-nav{
-        display:block;
-        margin-right: 2rem;
-    }
-    main{
-        display:grid;
-        grid-template-columns: 100%;
-        margin:-3rem auto 0 auto;
-    }
-    .desktop-img{
-        display: none;
-    }
-    .mobile-image{
-        display:block;
-        margin-top: 3rem;
-    }
-    .links{
-        display: none;
-    }
-
-    main h1{
-        font-size: 2.5rem;
-    }
-
-    .copyright{
-        width:13rem;
-        margin: 10rem auto 0 auto;
-        text-align: center;
+}
+/*@media screen and (min width: 1400px) {
+    main p{
+        font-size: 0.7rem;
+        width: 60rem;
+        color:black;
+        line-height: 0.9rem;
     }
 }
